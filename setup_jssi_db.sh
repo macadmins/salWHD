@@ -29,5 +29,7 @@ echo "CREATE TABLE casperimport(id INT PRIMARY KEY NOT NULL, serial TEXT, name T
   --rm \
   --interactive \
   --link postgres-sal:postgres \
+  -e DB_NAME=$DB_NAME \
   grahamgilbert/postgres:latest \
-  bash -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -d $DB_NAME -U postgres'
+  bash -c 'exec psql -h "$POSTGRES_PORT_5432_TCP_ADDR" -p "$POSTGRES_PORT_5432_TCP_PORT" -d "$DB_NAME" -U postgres'
+
