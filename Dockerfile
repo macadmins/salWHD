@@ -1,4 +1,4 @@
-#Version: 0.0.1
+#Version: 0.0.2
 
 FROM macadmins/sal
 
@@ -10,4 +10,4 @@ RUN git clone https://github.com/nmcspadden/MacModelShelf.git /home/docker/sal/m
 RUN mv /home/docker/sal/macmodelshelf/macmodelshelf.py /home/docker/sal/
 RUN mv /home/docker/sal/macmodelshelf/macmodelshelf.json /home/docker/sal/
 RUN pip install psycopg2
-RUN git clone https://github.com/nmcspadden/Sal-JSSImport.git --branch development /home/docker/sal/jssimport
+RUN git clone https://github.com/nmcspadden/Sal-JSSImport.git /home/docker/sal/jssimport
