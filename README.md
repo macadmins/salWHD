@@ -15,9 +15,9 @@ Preparing Database Setup Scripts:
  1. chmod +x setup_db.sh
  2. Change postgres to grahamgilbert/postgres
  3. Change DB settings:
-  1. DB_NAME=sal
-  2. DB_USER=saldbadmin
-  3. DB_PASS=password
+    1. DB_NAME=sal
+    2. DB_USER=saldbadmin
+    3. DB_PASS=password
 2. curl -O [https://raw.githubusercontent.com/nmcspadden/salWHD/master/setup_jssi_db.sh](https://raw.githubusercontent.com/nmcspadden/salWHD/master/setup_jssi_db.sh)
       1. chmod +x setup_jssi_db.sh
       2. Change DB settings:
