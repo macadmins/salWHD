@@ -14,7 +14,7 @@ Preparing Data Files:
 1. `mkdir -p /usr/local/sal_data/settings/`
 2. `curl -o /usr/local/sal_data/settings/settings.py https://raw.githubusercontent.com/macadmins/sal/master/settings.py`
 	1. Make the following changes to settings.py:  
-		Add `'whdimport',` to `INSTALLED_APPS`
+		Add `'whdimport',` to the end of the list of `INSTALLED_APPS`
 3. `git clone https://github.com/nmcspadden/MacModelShelf.git /usr/local/sal_data/macmodelshelf`
 
 Run the Sal DB and Setup Scripts:
