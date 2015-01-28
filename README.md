@@ -3,7 +3,7 @@ salWHD
 
 Docker container for sal + Sal-WHDImport + JSSImport
 
-This is a Docker container that pulls from [Sal](https://github.com/macadmins/sal), incorporates [Sal-WHD](https://github.com/macadmins/Sal-WHDImport) and [Sal-JSS](https://github.com/macadmins/Sal-JSSImport).
+This is a Docker container that pulls from [Sal](https://github.com/macadmins/sal), incorporates [Sal-WHD](https://github.com/nmcspadden/Sal-WHDImport) and [Sal-JSS](https://github.com/nmcspadden/Sal-JSSImport).
 
 How To Setup Sal, Sal-WHD, and JSSImport with Docker:
 =========
