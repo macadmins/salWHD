@@ -93,7 +93,7 @@ Configure WHD Through Browser:
 Setup Discovery Connections:
 ----
 
-1. Setup discovery disconnection "Sal":
+1. Setup discovery connection "Sal":
 	1. Connection Name: "Sal" (whatever you want)
 	2. Discovery Tool: Database Table or View
 	3. Database Type: PostgreSQL - **uncheck Use Embedded Database**
