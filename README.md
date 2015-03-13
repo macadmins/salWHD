@@ -62,7 +62,7 @@ Add `-v /usr/local/sal_data/saldata:/saldata` to the command below (after the ot
 Run Sal and Sync the Database:
 -----
 
-1. `ddocker run -d --name sal -p 81:8000 --link postgres-sal:db -e ADMIN_PASS=password -e DB_NAME=sal -e DB_USER=saldbadmin -e DB_PASS=password -v /usr/local/sal_data/settings/settings.py:/home/docker/sal/sal/settings.py macadmins/salwhd`
+1. `docker run -d --name sal -p 81:8000 --link postgres-sal:db -e ADMIN_PASS=password -e DB_NAME=sal -e DB_USER=saldbadmin -e DB_PASS=password -v /usr/local/sal_data/settings/settings.py:/home/docker/sal/sal/settings.py macadmins/salwhd`
 2. `docker exec sal python /home/docker/sal/manage.py syncmachines`
 
 Run JSSImport and Sync the Database:
